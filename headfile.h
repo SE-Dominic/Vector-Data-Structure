@@ -88,6 +88,7 @@ public:
       cout << dyn_arr[i] << " ";
     }
   }
+  //return value at specified index
   A at(int idx) {
     return dyn_arr[idx];
   } 
